@@ -34,7 +34,7 @@ npm --version
 
 1. 프로젝트 클론:
 ```bash
-git clone [repository-url]
+git clone https://github.com/makepluscode/reactnative-helloworld.git
 cd ReactHello
 ```
 
@@ -85,7 +85,7 @@ npm install
 MIT License
 
 ## 작성자
-Your Name - email@example.com
+makepluscode@gmail.com
 
 ## 도움말
 문제가 발생하면 이슈를 생성해주세요.
