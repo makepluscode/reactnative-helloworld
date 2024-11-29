@@ -1,91 +1,92 @@
 # React Native Desktop Hello World Widget
 
-투명한 배경을 가진 드래그 가능한 Hello World 데스크톱 위젯입니다.
+A draggable Hello World desktop widget with a transparent background.
 
-## 실행 화면 특징
-- 프레임이 없는 투명한 창
-- 드래그로 이동 가능
-- 항상 최상위에 표시
-- 크기 200x80 픽셀
-- 둥근 모서리와 어두운 배경
+## Features
 
-## 시작하기
+- Frameless transparent window
+- Draggable to move
+- Always on top
+- Dimensions: 200x80 pixels
+- Rounded corners with a dark background
 
-### 필수 요구사항
+## Getting Started
 
-1. Windows 운영체제
-2. Node.js LTS 버전
-3. npm (Node.js와 함께 설치됨)
+### Requirements
 
-### Node.js 설치 방법
+1. Windows OS
+2. Node.js LTS version
+3. npm (comes with Node.js)
 
-1. Windows PowerShell 관리자 권한으로 실행
-2. Node.js LTS 설치:
+### Installing Node.js
+
+1. Run Windows PowerShell as Administrator.
+2. Install Node.js LTS:
 ```powershell
 winget install OpenJS.NodeJS.LTS
 ```
-3. 새 PowerShell 창을 열고 설치 확인:
+3. Open a new PowerShell window and verify the installation:
 ```powershell
 node --version
 npm --version
 ```
 
-### 프로젝트 실행
+### Running the Project
 
-1. 프로젝트 클론:
+1. Clone the project:
 ```bash
 git clone https://github.com/makepluscode/reactnative-helloworld.git
 cd ReactHello
 ```
 
-2. 의존성 패키지 설치:
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-3. 개발 모드 실행:
+3. Start in development mode:
 ```bash
 npm start
 ```
 
-### 실행 파일 빌드
+### Building the Executable
 
-1. PowerShell을 관리자 권한으로 실행
-2. 프로젝트 폴더로 이동
-3. 빌드 실행:
+1. Open PowerShell as Administrator.
+2. Navigate to the project directory.
+3. Build the project:
 ```powershell
 npm run build
 ```
-4. `dist\win-unpacked` 폴더에서 `ReactHello.exe` 실행
+4. Run the `ReactHello.exe` file from the `dist\win-unpacked` folder.
 
-## 문제 해결
+## Troubleshooting
 
-### 일반적인 문제
-- npm 명령어 인식 안됨: PowerShell/CMD 재시작
-- 빌드 실패: 관리자 권한으로 다시 시도
-- 위젯이 보이지 않음: 작업 관리자에서 프로세스 확인
+### Common Issues
+- **`npm` command not recognized:** Restart PowerShell/CMD.
+- **Build failure:** Retry with administrator privileges.
+- **Widget not visible:** Check the process in Task Manager.
 
-### 패키지 설치 문제 해결
+### Resolving Package Installation Issues
 ```bash
-# node_modules 삭제
+# Remove node_modules
 rd /s /q node_modules
-# package-lock.json 삭제
+# Remove package-lock.json
 del package-lock.json
-# 의존성 다시 설치
+# Reinstall dependencies
 npm install
 ```
 
-## 기술 스택
+## Tech Stack
 - React 18
 - Electron
 - Webpack
 - Babel
 
-## 라이선스
+## License
 MIT License
 
-## 작성자
+## Author
 makepluscode@gmail.com
 
-## 도움말
-문제가 발생하면 이슈를 생성해주세요.
+## Support
+If you encounter issues, please create a GitHub issue.
